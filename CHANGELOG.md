@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+0.0.10 - 2024-02-02
+-------------------
+
+Test if implicit `GITHUB_TOKEN` works with `githubrelease`’s `master` branch
+
 0.0.9 - 2023-11-13
 ------------------
 

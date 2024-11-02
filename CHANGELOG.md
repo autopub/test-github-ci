@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+0.0.13 - 2024-11-02
+-------------------
+
+Install dependencies needed by vendored `githubrelease` module.
+
 0.0.12 - 2024-11-02
 -------------------
 

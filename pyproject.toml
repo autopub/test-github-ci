@@ -1,6 +1,6 @@
 [project]
 name = "test-github-ci"
-version = "0.0.12"
+version = "0.0.13"
 description = "This project tests AutoPub with GitHub Actions CI."
 readme = "README.md"
 authors = [

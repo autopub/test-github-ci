@@ -60,7 +60,8 @@ jobs:
         id: check_release
         run: |
           python -m pip install build dunamai httpx tomlkit twine
-          python -m pip install --index-url https://test.pypi.org/simple/ autopub
+          python -m pip install backoff~=2.1.2 click linkheader requests
+          python -m pip install --index-url https://test.pypi.org/simple/ autopub[github]
           autopub check
 
       - name: Publish
